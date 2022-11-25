@@ -1,0 +1,471 @@
+
+body{
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+    line-height: 16px;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    background-image:
+
+    linear-gradient(
+      rgba(0, 0, 0, 0.45),
+      rgba(0, 0, 0, 0.45)
+    ),
+
+    url("../images/hero.jpg");
+
+    height: 140vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+
+}
+header .navbar{
+  padding: 50px 0px;
+}
+header .navbar-nav .nav-item .active{
+  position: relative;
+}
+header .navbar-nav .nav-item .active::before{
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 8px;
+  width: 43px;
+  height: 2px;
+  background-color: #fff;
+}
+header .navbar-nav .nav-item .nav-link , header .navbar-nav .nav-item .active{
+  color: #fff !important;
+  font-size: 16px;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+    line-height: 16px;
+    font-weight: 500;
+    margin-left: 20px;
+    font-style: normal;
+    transition: padding .2s ease-in-out,transform .2s ease-in-out;
+}
+
+/* hero section styling  start*/
+.hero{
+  padding: 100px 0px;
+}
+.hero h1{
+  color: #fff;
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-size: 3.4rem;
+    line-height: 72px;
+    font-weight: 900;
+    text-align: center;
+}
+.hero p{
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 300;
+  text-align: center;
+  color: #fff;
+
+    padding: 50px 250px;
+}
+.hero .btn_sec {
+  text-align: center;
+}
+.hero .btn_sec .btn_1{
+  background-color: #fb414e;
+  padding-top: 16px;
+    padding-right: 50px;
+    padding-bottom: 16px;
+    padding-left: 50px;
+    text-decoration: none;
+    color: #fff;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #ffffff !important;
+}
+
+.hero .btn_sec .btn_2{
+  border: 2px solid #fb414e;
+  border-color: #fb414e;
+  padding-top: 14px;
+    padding-right: 36px;
+    padding-bottom: 14px;
+    padding-left: 36px;
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #ffffff !important;
+    text-decoration: none;
+    margin-left: 30px;
+}
+/* hero section styling end  */
+
+
+/* service styling start  */
+#service{
+
+  position: relative;
+  bottom: 50px;
+}
+#service .content{
+  padding: 50px;
+  background-color: #fb414e;
+  color: #fff;
+  bottom: -30px;
+}
+#service .content img{
+height: 60px;
+width: auto;
+}
+#service .content h3{
+  margin-top: 60px;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  position: relative;
+}
+#service .content h3::before{
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  left: 0px;
+  height: 3px;
+  width: 25%;
+  background-color: #fff;
+}
+#service .content p{
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 50px;
+}
+#service .content_bg{
+  background-color: #202b30;
+}
+/* service styling end  */
+
+
+/* best services styling start  */
+#best_service{
+  padding: 140px 0px;
+}
+#best_service h5{
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #fb414e;
+}
+#best_service h2{
+  padding-top: 0px;
+    padding-right: 6px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 900;
+    color: #202b30;
+}
+#best_service h2 span{
+  color: #fb414e;
+}
+#best_service .upper_content p{
+  width: 60%;
+  margin: auto;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 300;
+  text-align: center;
+  color: #838383;
+  margin-top: 40px;
+}
+
+#best_service .content{
+  padding: 10px;
+  text-align: center;
+}
+#best_service .content i{
+  font-size: 60px;
+  color: #202b30;
+  margin-bottom: 20px;
+}
+#best_service .content h3{
+  font-weight: bold;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  color: #000;
+  margin-bottom: 20px;
+}
+#best_service .content p{
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 200;
+  color: #838383;
+  font-style: normal;
+}
+
+
+/* best services styling  end  */
+
+
+/* Business styling start  */
+
+#business{
+
+  background-color: #202b30;
+  padding: 100px 0px 100px 200px;
+}
+#business h4{
+
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-size: 44px;
+    line-height: 58px;
+    font-weight: 700;
+    color: #fff;
+}
+#business p{
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #ffffff;
+  text-align: left;
+  margin-top: 50px;
+    margin-bottom: 50px;
+}
+#business a{
+  padding-top: 14px;
+    padding-right: 42px;
+    padding-bottom: 14px;
+    padding-left: 42px;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    margin-top: 20px;
+}
+/* Business styling end  */
+
+
+/* prioovide section start  */
+#provide{
+  background-color: #f7f7f7;
+  padding: 100px 0px 100px 200px;
+}
+#provide h5{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #202b30;
+  font-style: normal;
+}
+#provide p{
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 200;
+    color: #838383;
+    font-style: normal;
+    margin-top: 30px;
+}
+#provide h2{
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-size: 45px;
+    line-height: 58px;
+    font-weight: 700;
+    color: #202b30;
+}
+
+
+/* prioovide section end */
+
+
+/* gallery section start  */
+
+#gallery{
+  padding:100px 0px;
+
+}
+#gallery img{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 30px;
+
+}
+/* gallery section end  */
+/* trust_client style start */
+#trust_client{
+  padding: 100px 0px;
+}
+#trust_client .content h3{
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+}
+#trust_client .content h3{
+  font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+}
+#trust_client .content p{
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: left;
+    color: #0a0a0a;
+    margin: 50px 0px 100px 0px;
+}
+#trust_client .content a{
+    padding-top: 14px;
+    padding-right: 42px;
+    padding-bottom: 14px;
+    padding-left: 42px;
+    border: 2px solid #000;
+    text-decoration: none;
+    color: #000;
+    margin-top: 30px;
+
+}
+/* trust_client style end */
+
+/* client_log section start  */
+#client_log{
+    background-color: #202b30;
+    padding: 50px 0px 50px 200px;
+}
+#client_log h3{
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    color: #ffffff;
+}
+#client_log p{
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: left;
+    color: #ffffff;
+}
+/* client_log section end  */
+/* handcraft style start  */
+#handcraft{
+  padding: 100px 0px 100px 200px;
+}
+
+#handcraft h2{
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 700;
+    color: #202b30;
+}
+#handcraft p{
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: left;
+    color: #838383;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#handcraft i{
+    font-size: 30px;
+    color: #fb414e;
+    padding: 100px 0px;
+}
+#handcraft h4{
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    color: #5e5e5e;
+    font-style: normal;
+    margin-top: 20px;
+}
+
+#contact {
+    padding: 100px 0px;
+}
+#contact h3{
+    font-family: "Source Sans Pro", Helvetica, Arial, sans-serif;
+    font-size: 60px;
+    line-height: 68px;
+    font-weight: 700;
+    text-align: right;
+    color: #202b30;
+}
+#contact p{
+    font-family: "Roboto", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: right;
+    color: #838383;
+    padding-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+/* handcraft style end  */
+
+
+/* contact form start */
+
+input.form-control{
+height: 50px !important;
+margin-bottom: 30px;
+border-radius: 0;
+}
+#contact .btn-danger{
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 0px;
+    line-height: 25px;
+    background-color: #fb414e;
+    font-weight: bold;
+}
+
+
+
+/* contact form  end*/
+
+/* footer section  */
+footer{
+    background-color: #202b30;
+    padding: 100px;
+}
+footer ul{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: 25px;
+}
+.social i{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #fb414e;
+
+
+}
